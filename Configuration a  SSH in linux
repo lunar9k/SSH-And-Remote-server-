@@ -15,3 +15,8 @@ Host [Alias2]
     
 Host [Alias3]
     Option1 [value]
+
+#SSH Client reads the configuration file stanza by stanza. If more than one pattern matches, then the options from the first matching stanza take precedence. Hence, the host-specific declaration should come first and the generic declaration should be kept last. 
+#There is numerous number of ssh options available which can be found by typing man ssh_config in Linux terminal or can check in /etc/ssh/ssh_config file for reference.
+
+

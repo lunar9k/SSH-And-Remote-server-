@@ -1,2 +1,17 @@
-By default, the config file will not be present and the user needs to create it using the touch command
+#By default, the config file will not be present and the user needs to create it using the touch command
 
+#Config File Syntax
+#SSH config file takes the following syntax
+
+
+Host [Alias1]
+    Option1 [value]
+    Option2 [value]
+    Option3 [value]
+    
+Host [Alias2]
+    Option1 [value]
+    Option2 [value]
+    
+Host [Alias3]
+    Option1 [value]
